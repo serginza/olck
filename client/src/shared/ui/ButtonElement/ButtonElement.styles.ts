@@ -1,0 +1,22 @@
+export const buttonElementStyle = {
+  backgroundColor: 'var(--soft-indigo-90)',
+  minWidth: '120px',
+  borderRadius: '6px',
+  boxShadow: 'none',
+  color: 'white',
+  fontWeight: '600',
+  letterSpacing: '2px',
+  '&:hover': {
+    backgroundColor: 'var(--soft-indigo-100)',
+    boxShadow: 'none',
+  },
+  '&:active': {
+    background: 'rgba(67, 86, 255, 0.9)',
+    transform: 'scale(0.99)',
+  },
+  '&:disabled': {
+    background: 'rgba(67, 86, 255, 0.3)',
+    color: 'rgb(82, 82, 82)',
+    cursor: 'not-allowed',
+  },
+};

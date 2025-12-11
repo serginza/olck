@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'PTSans';
+  src: url(./shared/assets/fonts/New-PTSans-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-ptsans: 'PTSans', sans-serif;
+  --main-bg-color: rgba(244, 245, 249, 1);
+  --soft-blue-100: rgba(224, 229, 255, 1);
+  --soft-indigo-10: rgba(67, 86, 255, 0.1);
+  --soft-indigo-30: rgba(67, 86, 255, 0.3);
+  --soft-indigo-70: rgba(67, 86, 255, 0.7);
+  --soft-indigo-90: rgba(67, 86, 255, 0.9);
+  --soft-indigo-100: rgba(67, 86, 255, 1);
+  --dark-indigo-100: rgba(42, 56, 112, 1);
+  --deep-dark-indigo-100: rgb(10, 14, 31);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--main-bg-color);
+  font-family: var(--font-ptsans);
+}
